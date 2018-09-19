@@ -9,10 +9,12 @@
   "dependencies": {},
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-umd": "^6.1.18",
+    "babel-preset-env": "^1.7.0",
     "chai": "^3.4.1",
     "event-stream": "^3.3.2",
     "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.0"
+    "gulp-babel": "^6.1.0",
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "mocha build/test",

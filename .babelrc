@@ -1,0 +1,8 @@
+{
+  "plugins": ["transform-es2015-modules-umd"],
+  "presets": ["env"],
+  "only": [
+    "src/*.js",
+    "test/*.js",
+  ]
+}
